@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube 日本語字幕ソーター",
+  "version": "1.0",
+  "description": "YouTubeの自動翻訳リストで「日本語」を先頭に表示します。",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"] 
+    }
+  ]
+}
